@@ -28,7 +28,7 @@ REST_FRAMEWORK = {
 }
 ```
 
-### urls.py
+### urls.py (Project Level)
 ```
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
