@@ -41,3 +41,16 @@ urlpatterns = [
     path('sjwt/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
 ```
+
+## Usage
+### GET TOKEN
+  - /sjwt/token/
+  - POST
+  - Content-Type: application/json"
+  - json{"username": "username value", "password": "password value"}
+
+### REFRESH
+  - /sjwt/token/refresh/
+  - POST
+  - Content-Type: application/json"
+  - json{"refresh":"refresh token value"}
